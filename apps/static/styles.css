@@ -1,0 +1,61 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  width: 100%;
+}
+ 
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #000000;
+  text-align: left;
+  margin-right: 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+ 
+/* Add a color to the active/current link */
+.topnav a.active{
+  color: #008CBA;
+}
+
+
+
+/*lab 5*/
+.link {
+  display: block; 
+  text-align: center;
+  padding: 15px;
+}
+
+.new-tab {
+  background-color: lightgreen;
+  color: rgb(231, 95, 11);
+}
+
+.same-tab {
+  background-color: gray;
+  color: gold;
+}
+
+.same-tab-2 {
+  background-color: black;
+  color: white;
+}
+.link:hover {
+  opacity: 0.7;
+}
+
+.link:active {
+  color: blue;
+}
+
+
+.formatted-title{
+  background-color: rgb(234, 245, 193);
+  color:rgb(9, 79, 9);
+}
+
+.listing-title{
+  background-color: rgb(40, 121, 137);
+  color:white;
+}
